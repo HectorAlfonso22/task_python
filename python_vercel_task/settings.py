@@ -25,7 +25,15 @@ SECRET_KEY = config('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['https://task-python-4jgfavemk-hector-alfonsos-projects.vercel.app/']
+#ALLOWED_HOSTS = ['https://task-python-4jgfavemk-hector-alfonsos-projects.vercel.app/']
+
+ALLOWED_HOSTS = [
+    'task-python.vercel.app',
+    'task-python-bpckjnmn6-hector-alfonsos-projects.vercel.app',  # Si este sigue siendo necesario
+    'localhost',
+    '127.0.0.1',
+]
+
 
 
 # Application definition
